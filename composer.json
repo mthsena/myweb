@@ -1,0 +1,19 @@
+{
+    "name": "mthsena/myweb",
+    "description": "mthsena/myweb",
+    "type": "project",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "altorouter/altorouter": "*",
+        "voku/html-min": "*",
+        "matthiasmullie/minify": "*",
+        "phpmailer/phpmailer": "*"
+    }
+}
