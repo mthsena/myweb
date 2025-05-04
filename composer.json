@@ -1,0 +1,24 @@
+{
+    "name": "mthsena/myweb",
+    "description": "mthsena/myweb",
+    "autoload": {
+        "psr-4": {
+            "app\\": [
+                "app/component/",
+                "app/config/",
+                "app/controller/",
+                "app/model/",
+                "app/route/",
+                "app/view/",
+                "core/"
+            ]
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "*",
+        "voku/html-min": "*",
+        "matthiasmullie/minify": "*",
+        "phpmailer/phpmailer": "*",
+        "ramsey/uuid": "*"
+    }
+}
